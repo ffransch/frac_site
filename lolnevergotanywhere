@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frances Schoenly</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #305165;
+      color: #f4f7f8;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: #243f50;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #e1eabb;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      text-align: center;
+      padding: 15px;
+      background: #1d3340;
+    }
+
+    nav a {
+      color: #e1eabb;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 25px;
+      border-radius: 14px;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #e1eabb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1d3340;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #e1eabb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Frances Schoenly</h1>
+    <p>Meteorology graduate • Forecasting • Air quality • Weather communication</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m Frances, a meteorology graduate from UMD.
+      </p>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="card">
+      <h2>Research Interests</h2>
+      <p>
+        My research focuses on the relationship between ozone and temperature in the
+        Baltimore–Washington region. 
+      </p>
+      <p>
+        I would like to conduct research with aviation forecasting or weather impacts in aviation. I am currently looking for graduate-level research opportunities in this field.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="card">
+      <h2>Experience</h2>
+      <ul>
+        <li>President of the UMD AMS Student Chapter</li>
+        <li>Forecast writer and manager for UMD Weather</li>
+        <li>NOAA SCOuT intern with exposure to operational forecasting</li>
+        <li>Research assistant on weather, flooding, and air quality projects</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Email: ...
+      <p>
+        GitHub / LinkedIn: ...
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Frances Schoenly</p>
+  </footer>
+
+</body>
+</html>
